@@ -1,6 +1,6 @@
-# E-Cab Admin Panel App
+# Glopilot Admin Panel App
 
-The E-Cab Admin Panel App is a web application designed to manage and monitor operations related to an electronic cab service. This admin panel is split into two parts: the frontend, built with React, and the backend, powered by Django.
+The Glopilot Admin Panel App is a web application designed to manage and monitor operations related to an electronic cab service. This admin panel is split into two parts: the frontend, built with React, and the backend, powered by NodeJs, here is url "https://github.com/ibroraheem/gloo".
 
 ## Features
 
@@ -12,26 +12,22 @@ The E-Cab Admin Panel App is a web application designed to manage and monitor op
 ## Technologies Used
 
 - **Frontend**: React
-- **Backend**: Django
-- **Database**: [Your preferred database, e.g., PostgreSQL]
+- **Backend**: NodeJs
+- **Database**: [MongoDb]
 - **State Management**: [e.g., Redux for React]
 - **API Communication**: RESTful APIs
 
 ## Prerequisites
 
-- Node.js and npm for the frontend.
-- Python and pip for the backend.
-- [Your preferred database] installed and running.
+- ReactJs and npm for the frontend.
+- NodeJs backend.
+- [Mongodb database] installed and running.
 
 ## Getting Started
 
 ### Frontend
 
-Navigate to the `frontend` directory:
 
-```bash
-cd frontend
-```
 
 Install the dependencies:
 
