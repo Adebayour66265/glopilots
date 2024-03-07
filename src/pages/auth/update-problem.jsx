@@ -62,7 +62,7 @@ const UpdateProfile = () => {
     try {
       console.log("updating profile");
       const res = await axios.put(
-        `${SERVER_URL}/admin-api/profile/update`,
+        `${SERVER_URL}/update-user/{id}`,
         form,
         {
           headers: {
@@ -91,7 +91,7 @@ const UpdateProfile = () => {
     formData.append("file", event.target.files[0]);
     try {
       console.log("uploading image");
-      const res = await axios.post(`${SERVER_URL}/account/upload/`, formData, {
+      const res = await axios.post(`${SERVER_URL}/profile-pic`, formData, {
         headers: {
           "Content-Type": "multipart/form-data",
           Authorization: `token ${user.token}`,

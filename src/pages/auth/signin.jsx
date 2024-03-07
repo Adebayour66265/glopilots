@@ -34,7 +34,7 @@ const SignIn = () => {
     event.preventDefault();
     setIsLoading(true);
     try {
-      const res = await axios.post(`${SERVER_URL}/admin-api/login`, form);
+      const res = await axios.post(`${SERVER_URL}/admin/login`, form);
       const data = await res.data;
       const name = data.first_name + " " + data.last_name;
       const phone = data.phone;
