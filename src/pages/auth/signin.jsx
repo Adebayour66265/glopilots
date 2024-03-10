@@ -57,7 +57,7 @@ const SignIn = () => {
             isAdmin,
           })
         );
-        navigate("/");
+        navigate("/dashboard");
       }
       console.log(data);
     } catch (error) {
