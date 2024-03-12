@@ -58,6 +58,7 @@ function Root() {
       {/* <Route path="auth">
         <Route path="signin" element={<SignIn />} />
       </Route> */}
+      
       <Route element={<Layout />}>
         <Route path="update-profile" element={<UpdateProfile />} />
         <Route index element={<Dashboard />} />
